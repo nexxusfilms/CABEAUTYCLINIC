@@ -24,7 +24,7 @@ const WHATSAPP_ICON_URL = "https://upload.wikimedia.org/wikipedia/commons/6/6b/W
 const SERVICE_DETAILS: Record<string, string> = {
   "Fibra de Vidro": "A técnica de Fibra de Vidro é um método de extensão que proporciona alongamento com aspecto extremamente natural.\nIndicada para quem deseja unhas mais longas, resistentes e elegantes, ela se destaca pela durabilidade e acabamento delicado. A estrutura é moldada fio a fio, garantindo leveza, alta resistência e um resultado sofisticado. Ideal para quem busca beleza com performance.",
   "Banho de Gel": "O Banho de Gel não é um método de alongamento.\nEle é aplicado sobre a unha natural com o objetivo de fortalecer, proteger e criar uma camada estrutural que reduz quebras e descamações. O gel forma uma barreira resistente que auxilia no crescimento saudável das unhas.\nPerfeito para quem deseja manter o comprimento natural com mais firmeza e durabilidade.",
-  "Blindagem (Esmaltação em Gel)": "A Blindagem é um procedimento de proteção da unha natural.\nEla cria uma camada estrutural mais resistente sobre a unha, aumentando sua durabilidade e reduzindo quebras e descamações.\nDiferente do alongamento, a blindagem mantém o comprimento natural, apenas reforçando sua estrutura.\nÉ ideal para quem deseja unhas mais firmes, protegidas e com acabamento sofisticado, sem alterar o tamanho.\nDurabilidade média: até 20 dias, dependendo dos cuidados e crescimento natural.",
+  "Blindagem (Esmaltação em Gel)": "A blindagem é uma esmaltação em gel aplicada sobre a unha natural, ideal para prolongar a durabilidade do esmalte e manter o brilho impecável por mais tempo.\nDurabilidade média: até 20 dias, dependendo dos cuidados e crescimento natural.",
   "Brow Lamination": "A técnica de Brow Lamination é um procedimento que foca na organização e alinhamento dos fios das sobrancelhas.\nEla permite criar um efeito de sobrancelhas mais cheias, alinhadas e com aspecto de 'penteadas'.\nIdeal para quem tem fios rebeldes, falhas ou deseja um visual mais moderno e expressivo.\nA técnica utiliza produtos específicos que suavizam a cutícula do fio, permitindo que ele seja moldado na direção desejada.\nResultado: sobrancelhas impecáveis, com volume e definição natural.",
   "Design Personalizado": "Cada sobrancelha é única e o design também deve ser. A técnica é realizada com visagismo, respeitando o formato do rosto, proporções faciais, personalidade e estrutura natural dos fios.\nO objetivo não é transformar, mas harmonizar.\nCriamos um desenho estratégico que valoriza sua expressão sem perder naturalidade.\nResultado: equilíbrio, leveza e identidade preservada.",
   "Design Personalizado com Tintura": "Além do design estratégico, a tintura intensifica a cor dos fios, proporcionando maior definição e preenchimento visual. Ideal para fios claros, ralos ou com pequenas falhas. Diferente da henna, a tintura pigmenta os fios e não a pele, garantindo um resultado mais natural e sofisticado.\nDurabilidade média de até 30 dias nos fios.\nDefinição sutil, elegante e duradoura.",
@@ -62,8 +62,8 @@ const CATALOGS = {
         name: "Sobrancelhas",
         services: [
           { name: "Brow Lamination", price: "Consulte", img: "https://pbs.twimg.com/media/HEL2dIpa8AA7hVe?format=jpg&name=large" },
-          { name: "Design Personalizado", price: "Consulte", img: "https://pbs.twimg.com/media/HEL8hJKWgAAeAms?format=jpg&name=large" },
-          { name: "Design Personalizado com Tintura", price: "Consulte", img: "https://pbs.twimg.com/media/HE2W2b-aMAALKVu?format=jpg&name=large" },
+          { name: "Design Personalizado", price: "Consulte", img: "http://pbs.twimg.com/media/HF5BvqGXcAAN9xa?format=jpg&name=large" },
+          { name: "Design Personalizado com Tintura", price: "Consulte", img: "https://pbs.twimg.com/media/HF5Bvo2WgAAlDYd?format=jpg&name=large" },
           { name: "Combo: Brow Lamination + Lash Lifting", price: "Consulte", img: "https://pbs.twimg.com/media/HE2Syz_bMAA0PvN?format=jpg&name=large" }
         ]
       },
@@ -711,7 +711,7 @@ export default function App() {
                 </div>
                 <div className="text-center">
                   <p className="font-sans font-bold text-navy">Camile</p>
-                  <p className="text-xs text-rose-gold uppercase tracking-widest">Lash Designer</p>
+                  <p className="text-xs text-rose-gold uppercase tracking-widest">Lash Designer & Design de Sobrancelhas</p>
                 </div>
               </motion.div>
               <motion.div 
