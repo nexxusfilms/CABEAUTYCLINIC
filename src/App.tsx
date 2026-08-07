@@ -461,7 +461,7 @@ export default function App() {
       <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-20">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://pbs.twimg.com/media/HELx8a4aIAQpuww?format=jpg&name=large" 
+            src="https://pbs.twimg.com/media/HELx8a4aIAQpuww?format=jpg&name=large"
             alt="Luxury Clinic Interior" 
             className="w-full h-full object-cover opacity-40"
             referrerPolicy="no-referrer"
@@ -643,7 +643,7 @@ export default function App() {
                 className="aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl relative z-10"
               >
                 <img 
-                  src="https://pbs.twimg.com/media/HELx8a4aIAQpuww?format=jpg&name=large" 
+                  src="/images/ca-beauty-experiencia-otimizada.jpg"
                   alt="Professional Treatment" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
