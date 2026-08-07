@@ -461,7 +461,7 @@ export default function App() {
       <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-20">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://pbs.twimg.com/media/HELx8a4aIAQpuww?format=jpg&name=large"
+            src="/images/ca-beauty-experiencia-otimizada.jpg"
             alt="Luxury Clinic Interior" 
             className="w-full h-full object-cover opacity-40"
             referrerPolicy="no-referrer"
